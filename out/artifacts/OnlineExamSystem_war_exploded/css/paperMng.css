@@ -1,0 +1,1112 @@
+/*步骤*/
+.wizard-steps {
+	list-style: none;
+	display: table;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	position: relative
+}
+
+.wizard-steps li {
+	display: table-cell;
+	text-align: center;
+	width: 1%
+}
+
+.wizard-steps li .step {
+	border: 5px solid #ced1d6;
+	color: #546474;
+	font-size: 15px;
+	border-radius: 100%;
+	background-color: #FFF;
+	position: relative;
+	z-index: 2;
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	line-height: 30px;
+	text-align: center
+}
+
+.wizard-steps li:before {
+	display: block;
+	content: "";
+	width: 100%;
+	height: 1px;
+	font-size: 0;
+	overflow: hidden;
+	border-top: 4px solid #ced1d6;
+	position: relative;
+	top: 21px;
+	z-index: 1
+}
+
+.wizard-steps li:last-child:before {
+	max-width: 50%;
+	width: 50%
+}
+
+.wizard-steps li:first-child:before {
+	max-width: 51%;
+	left: 50%
+}
+
+.wizard-steps li.nav_active:before,
+.wizard-steps li.nav_complete:before,
+.wizard-steps li.nav_active .step,
+.wizard-steps li.nav_complete .step {
+	border-color: #5293c4
+}
+
+.wizard-steps li.nav_complete .step {
+	cursor: default;
+	color: #FFF;
+	-webkit-transition: transform ease .1s;
+	transition: transform ease .1s
+}
+
+.wizard-steps li.nav_complete:hover .step {
+	-moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	transform: scale(1.1);
+	border-color: #80afd4
+}
+
+.wizard-steps li.nav_complete:hover:before {
+	border-color: #80afd4
+}
+
+.wizard-steps li .title {
+	display: block;
+	margin-top: 8px;
+	max-width: 100%;
+	color: #949ea7;
+	font-size: 14px;
+	z-index: 104;
+	text-align: center;
+	table-layout: fixed;
+	word-wrap: break-word
+}
+
+.wizard-steps li.nav_active .title,
+.wizard-steps li.nav_complete .title {
+	color: #2b3d53
+}
+
+.step-content .step-pane {
+	display: none;
+	min-height: 200px;
+	padding: 4px 8px 12px
+}
+
+.step-content .nav_active {
+	display: block
+}
+.wizard-steps li.nav_complete .step i{
+	color: #87ba21 !important;
+}
+
+.wizard-actions {
+	text-align: right
+}
+
+.border_line{
+	border-bottom: 1px solid #d6d6d6;
+	padding-bottom:30px ;
+}
+/*步骤*/
+
+/*头部蓝色部分*/
+.minheight{
+	min-height:230px;
+}
+.title-top {
+	border-radius: 4px 4px 0 0;
+	height: 70px;
+	background: #4479ae;
+	overflow: hidden;
+}
+
+.title-top p {
+	float: left;
+	line-height: 70px;
+	color: #fff;
+	font-size: 16px;
+	font-weight: 600;
+	padding-left: 40px;
+}
+
+.addpaper {
+	margin-top: 15px;
+	margin-right: 40px;
+	width: 120px;
+	height: 40px;
+	padding: 0;
+	line-height: 40px;
+	display: block;
+	float: right;
+}
+
+.addpaper i {
+	margin-right: 8px;
+}
+
+
+/*中间白色背景*/
+
+.paper-content {
+	border-radius: 0 0 4px 4px;
+	background: #fff;
+	padding:30px 35px;
+	overflow: hidden;
+}
+
+.retun {
+	display: block;
+	float: right;
+	line-height: 70px;
+	color: #fff;
+	margin-right: 40px;
+	cursor: pointer;
+}
+.retun i{
+	margin-right: 8px;
+}
+
+.retun:hover {
+	color: #f1f1f1;
+	text-decoration: none;
+}
+
+
+/******试卷列表---paper-list.htm begin******/
+
+.table {
+	margin-bottom: 8px;
+}
+
+.table td,
+.table th {
+	color: #666;
+	text-align: center;
+	border-top: none !important;
+}
+
+.border {
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	height: 60px;
+	margin-bottom: 15px;
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+}
+.border:hover{
+	border: 1px solid #67CCFF;
+	background: #F4F4F4;
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+}
+
+.table-main {
+	text-align: center;
+	width: 100%;
+}
+
+.snum {
+	background: #f3f3f3;
+	height: 58px;
+	border-right: 1px solid #ccc;
+}
+
+.paper-word {
+	padding-left: 10px;
+}
+.mousezx{
+	cursor: pointer;
+}
+.bcolor {
+	color: #004080;
+}
+
+.rcolor {
+	color: #ff8000;
+}
+
+.gcolor {
+	color: #279f27;
+}
+
+.caozo i {
+	color: #666;
+}
+
+
+/*插件tooltip样式更改*/
+
+.tooltip-inner {
+	min-width: 300px !important;
+	min-height: 90px !important;
+	color: #333 !important;
+	border: 1px solid #c0c0c0 !important;
+	background-color: #fff !important;
+	font-size: 14px;
+	text-align: left;
+	line-height: 24px;
+	font-family: "microsoft yahei";
+	position: relative !important;
+	top: 2% !important;
+	box-shadow: 2px 2px 8px #c0c0c0;
+}
+
+.tooltip.in {
+	opacity: 1 !important;
+	-webkit-opacity: 1 !important;
+	filter: opacity(1);
+}	
+
+.tooltip-arrow {
+	border-bottom-color: #c0c0c0 !important;
+	position: relative!important;
+	top: 2%!important;
+}
+
+.paper-info {
+	color: #931100;
+	font-weight: 600;
+}
+
+.tipbox span {
+	display: block;
+	line-height: 40px;
+	border-bottom: 1px solid #ebebeb;
+}
+
+.tipbox span.bnone {
+	border-bottom: none;
+}
+
+
+/******试卷列表---paper-list.htm end******/
+
+
+
+
+/*步骤样式开始*/
+.orderbox {
+	border-bottom: 1px solid #d6d6d6;
+	padding-bottom: 20px;
+}
+
+.center1 {
+	overflow: hidden;
+}
+
+.nactive{
+	background-color: #4479AE !important;
+}
+.cirle0 {
+	width: 46px;
+	height: 46px;
+	border-radius: 50%;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	background-color: #4479AE;
+	float: left;
+	margin-left: 4%;
+	color: #FFFFFF;
+	border: none;
+	text-align: center;
+	position: relative;
+	line-height: 46px;
+	background-image: -webkit-radial-gradient(45px 45px, circle cover, yellow, orange);
+}
+
+@media (min-width: 1000px) {
+  .cirle0{
+	margin-left:3%;
+  }
+}
+@media (min-width: 1200px) {
+  .cirle0{
+	margin-left:4%;
+  }
+}
+.cirle1 {
+	width: 46px;
+	height: 46px;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+	background-color: #CCCCCC;
+	float: left;
+	margin-left: 0px;
+	line-height: 46px;
+	color: #FFFFFF;
+	border: none;
+	text-align: center;
+	position: relative;
+}
+
+.line-blue {
+	margin-top: 21px;
+	padding: 0;
+	float: left;
+	width: 40%;
+	height: 3px;
+	background-color: #CCCCCC;
+}
+.describe-info p {
+	float: left;
+	width: 33%;
+	color: #CCCCCC;
+	line-height: 30px;
+}
+
+.describe-info {
+	margin-top: 10px;
+	overflow: hidden;
+}
+
+.active {
+	padding-left: 24px;
+	color: #4479AE !important;
+}
+
+.infos {
+	padding-left: 24px;
+	text-align: center;
+}
+
+.infot {
+	padding-right: 18px;
+	text-align: right;
+}
+
+@media (min-width: 1000px) {
+  .active{
+	padding-left: 15px;
+  }
+  .infos{
+	padding-left: 35px;
+  }
+  .infot{
+  	padding-right:0;
+  }
+}
+@media (min-width: 1200px) {
+  .active{
+	padding-left: 24px;
+  }
+  .infos{
+	padding-left: 20px;
+  }
+  .infot{
+  	padding-right:20px;
+  }
+}
+/*步骤样式结束*/
+
+
+
+
+/******新增试卷---paper-add-basic.htm begin******/
+
+.text-paper {
+	margin-top: 30px;
+	padding-bottom: 30px;
+	border-bottom: 1px solid #d6d6d6;
+}
+
+.text-paper span,
+.bottom-paper span {
+	font-size: 14px !important;
+	border-radius: 4px 0 0 4px  !important;
+}
+
+.paper-input {
+	height: 60px;
+	line-height: 60px;
+	margin-bottom: 15px;
+}
+
+.paper-input .form-control {
+	height: 60px;
+	line-height: 60px;
+	font-size: 14px !important;
+}
+
+.paper-textarea {
+	height: 120px;
+}
+
+.paper-textarea .form-control {
+	font-size: 14px !important;
+	height: 120px;
+}
+
+.bottom-paper {
+	margin-top: 30px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #d6d6d6;
+}
+.setboeder{
+	
+	border-radius: 4px;
+	position: relative;
+	z-index: 1;
+}
+.fgwyfp {
+	padding-top:15px ;
+	padding-bottom: 15px;
+	border: none !important;
+	cursor: pointer;
+}
+.fgwyf{
+	border: 1px solid #ccc;
+	border-radius:4px ;
+	margin: 0 !important;
+} 
+.setboeder img.duigou{
+	width: 32px !important;
+	height: 32px !important;
+	position: absolute;
+	top: -10px;
+	right: -10px;
+	z-index: 9;
+	margin: 0px;
+	display: none;
+}
+.setboeder .tik_img{
+	width: 60%;
+	min-height: 210px;
+	display: block;
+	margin:20px auto 10px auto;
+}
+@media (min-width: 992px) {
+	.setboeder{
+	  	
+	  	margin: 8px;
+	  	min-height: 270px;
+	}
+  	.setboeder .tik_img{
+		width: 60%;
+		min-height: 160px;
+		display: block;
+		margin:20px auto 10px auto;
+	}
+}
+@media (min-width: 1200px) {
+  .setboeder{
+  	
+	margin:10.8px;
+	min-height: 300px;
+  }
+  	.setboeder .tik_img{
+		width: 60%;
+		min-height: 160px;
+		display: block;
+		margin:20px auto 10px auto;
+	}
+}
+.setboeder .bcolor{
+	color: #447aad;
+	text-align: center;
+	line-height: 24px;
+}
+.setword{
+	text-align: center;
+	line-height: 24px;
+	font-weight: 600;
+	color:#333;
+	padding: 0 10px;
+	height: 48px;
+	white-space:nowrap; 
+	overflow:hidden; 
+	text-overflow:ellipsis;
+}
+.btnbox{
+	width: 440px;
+	margin:30px auto;
+}
+.btnbox a{
+	width: 200px;
+	padding:0;
+	height:46px;
+	line-height: 44px;
+	margin: 0 8px;
+}
+.btnbox a i{
+	margin: 0 8px;
+}
+.samecheck{
+	width: 15px;
+	height: 15px;
+	padding: 1px;
+	border: 1px solid #CCCCCC;
+	border-radius:2px ;
+	float: left;
+	margin-top: 2px;
+	margin-right: 8px;
+	background-color: #FFFFFF;
+}
+.removebgc{
+	background-color: #FFFFFF !important;
+	border: none;
+	color: #999999 ;
+}
+.removebgc:hover{
+	color: #555555;
+}
+.btn-checked{
+	color: #333;
+}
+/*.form-control{
+    border-radius: 0 4px 4px 0 !important;
+}*/
+#textarea{
+    padding: 10px 16px; 
+    outline: 0; 
+    border: 1px solid #ccc; 
+    font-size: 14px; 
+    line-height: 24px;
+    color: #666;
+    border-radius: 0 4px 4px 0;
+}
+/******新增试卷---paper-add-basic.htm end******/
+
+
+
+/******新增试卷---paper-add-deploy.htm begin******/
+.deploy-main{
+	border-bottom: 1px solid #d6d6d6;
+	padding-bottom: 20px;
+	margin-top: 30px;
+}
+.deploy-top{
+	overflow: hidden;
+}
+.add-exam{
+	display: block;
+	float: left;
+	padding: 0;
+	width: 160px;
+	height: 46px;
+	line-height: 44px;
+}
+.loading{
+	display: block;
+	float: right;
+	padding: 0;
+	width: 160px;
+	height: 46px;
+	line-height: 44px;
+}
+.deploybox{
+	margin-top: 10px;
+	background: #eeeeee;
+	border:1px solid #b2b2b2;
+	border-radius: 4px;
+	padding:16px 0;
+	overflow: hidden;
+}
+.deploy-content .row{
+	margin:10px 0 ;
+}
+.deploy-content .row .row{
+	margin:20px 0 ;
+}
+.deploytype{
+	height:20px;
+}
+.deploytype .form-control{
+	height:60px;
+	line-height: 40px;
+	font-size: 14px !important;
+}
+.deploytype span{
+	font-size: 14px !important;
+	border-radius: 4px 0 0 4px !important;
+}
+.deploytype span.border-tmlx{
+	border:1px solid #ccc;
+	border-radius:4px !important;
+	font-weight: 600;
+}
+.input-group-addon{
+	border:1px solid #ccc;
+	border-radius: 4px;
+	font-size: 14px !important;
+}
+.deploytype select{
+	width: 100%;
+	height:40px;
+	line-height: 60px;
+	border-radius: 0 4px 4px 0;
+	border:1px solid #ccc;
+	outline: medium;
+	padding-left: 20px;
+}
+.nopadleft{
+	padding-left: 0;
+}
+.nopadright{
+	padding-right: 0;
+}
+.zjj{
+	padding:10px 31px !important;
+}
+.deploytype span.zsd{
+	height: 120px;
+	padding:10px 23.5px !important;
+}
+.deploytype input.konwsbox{
+	height: 60px;
+	width: 300px;
+}
+.deploytype textarea.konwsbox{
+	height: 120px;
+	line-height: 30px;
+}
+.line-right{
+	border-right:1px solid #e6e6e6;
+}
+.deletebox{
+	margin-left: 6px;
+	line-height:180px ;
+
+}
+.deletebox i,.deletebox a{
+	color:#666;
+}
+
+
+/*知识点弹窗 begin*/
+.modal-content{
+	margin-top: 80px;
+}
+.knowsheader{
+	background-color: #66ccff;
+	border-radius: 4px 4px 0 0;
+	border-bottom: none !important;
+}
+.knowsbody{
+	border-radius:0 0 4px 4px;
+}
+.knowsbody span{
+	color: #666;
+}
+.zsd_qd{
+	width: 120px;
+	height: 30px;
+	border: 0px;
+	background-color: #0052A3;
+	color: #FFF;
+	border-radius: 4px;
+}
+.zsd_qx{
+	width: 120px;
+	height: 30px;
+	border: 0px;
+	background-color: #CCC;
+	color: #555;
+	border-radius: 4px;
+}
+.knowsbody-nav{
+	color:#666;
+	background: #f4f4f4;
+	line-height: 50px;
+	padding-left: 20px;
+	border-bottom: 1px solid #ccc;
+}
+.knowsbody-nav span{
+	/*color:#ccc;*/
+}
+.knowsbody-main{
+	height: 270px;
+	overflow-y: scroll;
+}
+ul,li{
+	list-style: none;
+}
+.knowsmain{
+	margin-top: 15px;
+	margin-left: 15px;
+}
+.knowsmain li{
+	overflow: hidden;
+	padding:6px 0
+}
+.knowsmain li div{
+	color: #666;
+	margin-left:15px ;
+	float: left;
+}
+.knowsmain li div.onebox{
+	overflow: hidden;
+	cursor: pointer;
+}
+.knowsmain li div.onebox{
+	width: 260px;
+}
+.knowsmain li div.onebox,
+.knowsmain li div.twobox{
+	overflow: hidden;
+}
+/*.fxkbox{
+	width: 16px;
+	height: 16px;
+	display: block;
+	float: left;
+	margin-right: 8px !important;
+}*/
+/*知识点模拟checkbox*/
+.fxkbox{
+	width: 20px;
+	height: 20px;
+	border: 1px solid #CCCCCC;
+	border-radius: 50%;
+	display: block;
+	float: left;
+	margin-right: 8px !important;
+	margin-top: 2px;
+}
+.knowsmain li div.onebox span{
+	display: block;
+	float: left;
+}
+.srkbox{
+	text-align: right;
+	width: 50px;
+/*	margin-left: 10px;*/
+}
+/*.score{
+	margin-top:2px;
+	margin-left: 15px;
+}*/
+.modal-body{
+	padding:0;	
+}
+.zsdxz_box_top{
+	background: #33adf3;
+	border-radius: 4px 4px 0 0;
+	color:#fff;
+}
+/*知识点弹窗 end*/
+/*********************************16.8.4新增*******************************/
+.knows_choose{
+	min-height: 120px;
+	overflow-y: scroll;
+}
+.col-lg-5,.col-md-5{
+	padding: 0 5px;
+}
+.knows_choose_tit{
+	line-height:30px;
+}
+.knows_choose_line{
+	border-bottom:1px dashed #ccc;
+	margin-top: 15px;
+}
+.text-overflow{
+	width: 345px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space:nowrap ;
+}
+
+
+/******新增试卷---paper-add-deploy.htm end******/
+
+
+
+
+/******新增试卷---paper-add-issue.htm begin******/
+.issue-content{
+	margin-top: 20px;
+	border-bottom: 1px solid #d6d6d6;
+	padding-bottom: 20px;
+}
+.issue-title{
+	text-align: center;
+	font-size: 16px;
+	font-weight: 600;
+	color: #333;
+}
+.blue{
+	margin-top: 20px;
+	border:1px solid #ccc;
+}
+.issue-table{
+	width: 100%;
+	font-size: 16px;
+}
+.issue-table td{
+	padding:19px 15px;
+}
+.issue-table td i{
+	margin-right: 8px;
+	font-size: 16px;
+	color: #666;
+}
+.issue-introduce{
+	margin-bottom: 15px;
+}
+.issue-introduce p{
+	color:#333;
+	padding-left: 18px;
+	line-height: 24px;
+}
+.issue-introduce p.redcolor{
+	color: #800000;
+	font-size: 16px;
+	line-height:36px;
+	font-weight: 600;
+	text-indent: inherit;
+	padding-left: 18px;
+}
+.issue-introduce .row{
+	padding:0 16px;
+}
+.issue-introduce .row div{
+	line-height:30px;
+}
+.border-bottom{
+	border-bottom: 1px dashed #d6d6d6;
+	margin-top: 15px;
+}
+.font-weight{
+	font-weight: 600;
+}
+.text-color{
+	color:#666;
+}
+.modal-dialog{
+	width: 500px;
+}
+.modal-dialog i{
+	margin-right:10px;
+}
+.xuxian_bg{
+	overflow: hidden;
+	margin-left: 20px;
+	background: url(../../images/examMng/xx.png);
+	background-repeat: repeat-x;
+	background-position: center center; 
+}
+.pd_title{
+	line-height: 30px;
+	display: block;
+	float: left;
+	padding-right: 10px;
+	background: #fff;
+}
+.pd_scorll{
+	display: block;
+	float: right;
+	background: #fff;
+	padding-left: 10px;
+	padding-right: 20px;
+	line-height: 30px;
+}
+.fontnone{
+	font-weight: normal !important;
+}
+/******新增试卷---paper-add-issue.htm end******/
+
+/*下拉框*/
+.select-wrapper{
+	font:normal 14px '\5FAE\8F6F\96C5\9ED1';
+	width:100%;
+	height:60px;
+	line-height:60px;
+	padding: 10px 46px 10px 16px;
+	float: left;
+	position:relative;
+	cursor:pointer;
+	display:inline-block;
+	*display:inline;
+	*float:left;
+	*margin-right:10px;
+	background:#fff;
+	border-radius:0 4px 4px 0 !important;
+	border:1px solid #ccc;
+}
+.select-wrapper input{height: 28px !important; padding: 0;}
+.select-wrapper.focus{
+	border-color: #66afe9;
+	outline: 0;
+	-webkit-box-shadow: none;
+		box-shadow: none;
+}
+.select-wrapper.i{cursor: pointer !important;}
+.select-button{
+	font:normal 14px '\5FAE\8F6F\96C5\9ED1';
+	width:74.92%;
+	height:32px !important;
+	border:0;
+	border-radius:3px;
+	background:#fff;
+	cursor:pointer;
+	padding:0 26px 0 10px;
+	overflow:hidden;
+	text-align:left;
+	outline:none;
+	white-space:nowrap;
+	word-break:keep-all;
+	text-overflow:ellipsis;
+}
+.select-down{
+	position:absolute;
+	top:21px;
+	right:12px;
+	height:0;
+	width:0;
+	overflow:hidden;
+	font-size:0;
+	border-color:#333 transparent transparent transparent;
+	border-style:solid;
+	border-width:6px;
+}  
+.disabled{
+	color:#cccccc;
+}
+.select-list{
+	width:100%;
+	background:#fff;
+	border:1px solid #66afe9;
+	/*box-shadow:0 0 3px #ddd;*/
+	border-radius:4px;
+	display:none;
+	z-index:2;
+	position:absolute;
+	left:-1px;
+	top:34px;
+	overflow:hidden;
+}
+.select-list ul{
+	margin:0;
+	padding:0;
+	overflow-x:hidden;
+	overflow-y:auto;
+	line-height:32px;
+	max-height:240px;
+}
+.select-list ul li{
+	width:auto;
+	height:32px;
+	padding-left:10px;
+	cursor:pointer;
+	overflow:hidden;
+	white-space:nowrap;
+	word-break:keep-all;
+	text-overflow:ellipsis;
+}
+.select-list ul li.selected,
+.select-list ul li:hover{
+	color:#fff;
+	background:#3399ff;
+}
+
+/* 下拉列表不可用样式 */
+.select-button-disable{
+	color:#ccc;
+	width:100%;
+	height:34px;
+	border:1px solid #e3e3e3;
+	border-radius:3px;
+	background:#fff;
+	cursor:pointer;
+	padding-left:10px;
+	overflow:hidden;
+	text-align:left;
+	outline:none;
+}
+.select-down-disable{
+	color:#ccc;
+	font-size:18px;
+	position:absolute;
+	top:0;
+	right:10px;
+	line-height:34px;
+}
+.TMSL{
+	color: green;
+	
+}
+.TMSL :after {
+	clear:both;content:'.';display:block;width: 0;height: 0;visibility:hidden;
+	}   /*==for FF/chrome/opera/IE8==*/
+#tipsxing{
+	color: red;
+	float: left;
+	font-size: 16px;
+}
+.posi-fix{
+	position: fixed;
+	z-index: 999;
+	top: 15px;
+	background-color: #f094c8;
+
+	width: 70%;
+	left: 15%;
+	padding:10px 80px ;
+	line-height: 52px;
+}
+.deploy-top1{
+	width: 100%;
+	height: 32px;
+	display: block;
+}
+.oclor{
+	color: #FFFFFF;
+	position: relative;
+	top: -4px;
+	left: -2px;
+	font-size: 14px;
+}
+.keydown_even{
+	display: none;
+	
+}
+.fgwyf{
+	background-color:#f5f1f3 ;
+}
+.sys-score-f{
+	float: right;
+	margin-right: 10%;
+}
+#testNub{
+	font-weight: 700;
+}
+#testScore{
+	font-weight: 700;
+}
+.srkbox{
+	border: 1px solid #ffffff;
+	width: 40px;
+}
+.bordernone{
+	border:1px solid #666666 !important;
+	color: #008200;
+	font-weight: 600;
+	padding-right: 5px;
+}

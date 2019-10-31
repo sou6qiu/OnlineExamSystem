@@ -1,0 +1,32 @@
+.register-bg{
+    font:normal 15px/1.5 Arial, Helvetica, Free Sans, sans-serif;
+    color: #222;
+    background:url(../images/bg.png) no-repeat center;
+    background-size: cover;
+    overflow:hidden;
+    padding:60px 0 0 0;
+    }
+#my-form{
+    width:755px;
+    margin:0 auto;
+    border:1px solid #ccc;
+    padding:3em;
+    border-radius:3px;
+    box-shadow:0 0 2px rgba(0,0,0,.2);
+    }
+#my-form .note{
+    width: 72px;
+}
+#comments{
+    width:350px;
+    height:100px;
+    }
+.btn{
+    color: #fff;
+    background: #009688;
+}
+.relogin a{
+    float: right;
+    color: #8D8D8D;
+    margin: -10px 15px 0 0;
+}

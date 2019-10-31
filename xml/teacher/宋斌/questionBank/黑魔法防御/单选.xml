@@ -1,0 +1,848 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<singleSelectionBank>
+  
+  
+<singleSelection>
+        
+<question>This is a test 777777</question>
+        
+<option1>A、test7</option1>
+        
+<option2>B、XML比SGML更为简化</option2>
+        
+<option3>C、HTML是SGML的一个子集</option3>
+        
+<option4>D、SGML主要用来定义文献模型的逻辑和物理结构</option4>
+        <trueAnswer>B</trueAnswer>
+        
+<difficult>中</difficult>
+    
+</singleSelection>
+    
+<singleSelection>
+        
+<question>XML的英文全称是</question>
+        
+<option1>A、EXtensible Mobile Language</option1>
+        
+<option2>B、X-ray Micro Label</option2>
+        
+<option3>C、EXtensible Markup Language</option3>
+        
+<option4>D、EXtensible Machine Language</option4>
+        <trueAnswer>C</trueAnswer>
+        
+<difficult>易</difficult>
+    
+</singleSelection>
+    
+<singleSelection>
+        
+<question>下列对XML的描述错误的是</question>
+        
+<option1>A、XML是纯文本，是人机可读的</option1>
+        
+<option2>B、XML用户是定义语言的语言，不能用于描述XML本身</option2>
+        <option3>C、XML可用来存储数据</option3>
+        
+<option4>D、XML可用于定义数据的交换格式</option4>
+        <trueAnswer>B</trueAnswer>
+        
+<difficult>难</difficult>
+    
+</singleSelection>
+    
+<singleSelection>
+        
+<question>应该在什么情况下优先使用XML</question>
+        
+<option1>A、希望制作精美的网页</option1>
+        
+<option2>B、希望采用一些载体进行跨平台传送数据</option2>
+        
+<option3>C、希望编写复杂的循环程序代码</option3>
+        
+<option4>D、希望在求职简历中写上：我会XML</option4>
+        <trueAnswer>B</trueAnswer>
+        
+<difficult>中</difficult>
+    
+</singleSelection>
+    
+<singleSelection>
+        
+<question>下列技术中，与XML数据显示和打印无关的技术为</question>
+        <option1>A、HTML</option1>
+        
+<option2>B、CSS</option2>
+        
+<option3>C、XLST</option3>
+        
+<option4>D、XML-Schema</option4>
+        
+<trueAnswer>D</trueAnswer>
+        
+<difficult>难</difficult>
+    
+</singleSelection>
+
+
+<singleSelection>
+<question>test3</question>
+<option1>111</option1>
+<option2>222</option2>
+<option3>333</option3>
+<option4>444</option4>
+<trueAnswer>B</trueAnswer>
+<difficult>中</difficult>
+</singleSelection>
+
+<singleSelection>
+        
+<question>This is a test9</question>
+        
+<option1>A、test7</option1>
+        
+<option2>B、XML比SGML更为简化</option2>
+        
+<option3>C、HTML是SGML的一个子集</option3>
+        
+<option4>D、SGML主要用来定义文献模型的逻辑和物理结构</option4>
+        <trueAnswer>B</trueAnswer>
+        
+<difficult>难</difficult>
+    
+</singleSelection>
+    
+<singleSelection>
+        
+<question>This is a test10</question>
+        
+<option1>A、EXtensible Mobile Language</option1>
+        
+<option2>B、X-ray Micro Label</option2>
+        
+<option3>C、EXtensible Markup Language</option3>
+        
+<option4>D、EXtensible Machine Language</option4>
+        <trueAnswer>C</trueAnswer>
+        
+<difficult>易</difficult>
+    
+</singleSelection>
+    
+<singleSelection>
+        
+<question>下列对XML的描述错误的是</question>
+        
+<option1>A、XML是纯文本，是人机可读的</option1>
+        
+<option2>B、XML用户是定义语言的语言，不能用于描述XML本身</option2>
+        <option3>C、XML可用来存储数据</option3>
+        
+<option4>D、XML可用于定义数据的交换格式</option4>
+        <trueAnswer>B</trueAnswer>
+        
+<difficult>中</difficult>
+    
+</singleSelection>
+    
+<singleSelection>
+        
+<question>应该在什么情况下优先使用XML</question>
+        
+<option1>A、希望制作精美的网页</option1>
+        
+<option2>B、希望采用一些载体进行跨平台传送数据</option2>
+        
+<option3>C、希望编写复杂的循环程序代码</option3>
+        
+<option4>D、希望在求职简历中写上：我会XML</option4>
+        <trueAnswer>B</trueAnswer>
+        
+<difficult>中</difficult>
+    
+</singleSelection>
+    
+<singleSelection>
+        
+<question>下列技术中，与XML数据显示和打印无关的技术为</question>
+        <option1>A、HTML</option1>
+        
+<option2>B、CSS</option2>
+        
+<option3>C、XLST</option3>
+        
+<option4>D、XML-Schema</option4>
+        
+<trueAnswer>D</trueAnswer>
+        
+<difficult>难</difficult>
+    
+</singleSelection>
+<singleSelection>
+<question>test11</question>
+<option1>111</option1>
+<option2>222</option2>
+<option3>333</option3>
+<option4>444</option4>
+<trueAnswer>B</trueAnswer>
+<difficult>易</difficult>
+</singleSelection>
+<singleSelection>
+<question>test12</question>
+<option1>123</option1>
+<option2>134</option2>
+<option3>156</option3>
+<option4>178</option4>
+<trueAnswer>A</trueAnswer>
+<difficult>易</difficult>
+</singleSelection>
+<singleSelection>
+<question>test13</question>
+<option1>111</option1>
+<option2>222</option2>
+<option3>333</option3>
+<option4>444</option4>
+<trueAnswer>B</trueAnswer>
+<difficult>中</difficult>
+</singleSelection>
+
+<singleSelection>
+        
+<question>This is a test14</question>
+        
+<option1>A、test7</option1>
+        
+<option2>B、XML比SGML更为简化</option2>
+        
+<option3>C、HTML是SGML的一个子集</option3>
+        
+<option4>D、SGML主要用来定义文献模型的逻辑和物理结构</option4>
+        <trueAnswer>B</trueAnswer>
+        
+<difficult>难</difficult>
+    
+</singleSelection>
+    
+<singleSelection>
+        
+<question>XML的英文全称是</question>
+        
+<option1>A、EXtensible Mobile Language</option1>
+        
+<option2>B、X-ray Micro Label</option2>
+        
+<option3>C、EXtensible Markup Language</option3>
+        
+<option4>D、EXtensible Machine Language</option4>
+        <trueAnswer>C</trueAnswer>
+        
+<difficult>易</difficult>
+    
+</singleSelection>
+    
+<singleSelection>
+        
+<question>下列对XML的描述错误的是</question>
+        
+<option1>A、XML是纯文本，是人机可读的</option1>
+        
+<option2>B、XML用户是定义语言的语言，不能用于描述XML本身</option2>
+        <option3>C、XML可用来存储数据</option3>
+        
+<option4>D、XML可用于定义数据的交换格式</option4>
+        <trueAnswer>B</trueAnswer>
+        
+<difficult>难</difficult>
+    
+</singleSelection>
+    
+<singleSelection>
+        
+<question>应该在什么情况下优先使用XML</question>
+        
+<option1>A、希望制作精美的网页</option1>
+        
+<option2>B、希望采用一些载体进行跨平台传送数据</option2>
+        
+<option3>C、希望编写复杂的循环程序代码</option3>
+        
+<option4>D、希望在求职简历中写上：我会XML</option4>
+        <trueAnswer>B</trueAnswer>
+        
+<difficult>中</difficult>
+    
+</singleSelection>
+    
+<singleSelection>
+        
+<question>下列技术中，与XML数据显示和打印无关的技术为</question>
+        <option1>A、HTML</option1>
+        
+<option2>B、CSS</option2>
+        
+<option3>C、XLST</option3>
+        
+<option4>D、XML-Schema</option4>
+        
+<trueAnswer>D</trueAnswer>
+        
+<difficult>难</difficult>
+    
+</singleSelection>
+
+
+<singleSelection>
+<question>test17</question>
+<option1>111</option1>
+<option2>222</option2>
+<option3>333</option3>
+<option4>444</option4>
+<trueAnswer>B</trueAnswer>
+<difficult>中</difficult>
+</singleSelection>
+
+
+<singleSelection>
+        
+<question>This is a test 777777</question>
+        
+<option1>A、test7</option1>
+        
+<option2>B、XML比SGML更为简化</option2>
+        
+<option3>C、HTML是SGML的一个子集</option3>
+        
+<option4>D、SGML主要用来定义文献模型的逻辑和物理结构</option4>
+        <trueAnswer>B</trueAnswer>
+        
+<difficult>中</difficult>
+    
+</singleSelection>
+    
+<singleSelection>
+        
+<question>XML的英文全称是</question>
+        
+<option1>A、EXtensible Mobile Language</option1>
+        
+<option2>B、X-ray Micro Label</option2>
+        
+<option3>C、EXtensible Markup Language</option3>
+        
+<option4>D、EXtensible Machine Language</option4>
+        <trueAnswer>C</trueAnswer>
+        
+<difficult>易</difficult>
+    
+</singleSelection>
+    
+<singleSelection>
+        
+<question>下列对XML的描述错误的是</question>
+        
+<option1>A、XML是纯文本，是人机可读的</option1>
+        
+<option2>B、XML用户是定义语言的语言，不能用于描述XML本身</option2>
+        <option3>C、XML可用来存储数据</option3>
+        
+<option4>D、XML可用于定义数据的交换格式</option4>
+        <trueAnswer>B</trueAnswer>
+        
+<difficult>难</difficult>
+    
+</singleSelection>
+    
+<singleSelection>
+        
+<question>应该在什么情况下优先使用XML</question>
+        
+<option1>A、希望制作精美的网页</option1>
+        
+<option2>B、希望采用一些载体进行跨平台传送数据</option2>
+        
+<option3>C、希望编写复杂的循环程序代码</option3>
+        
+<option4>D、希望在求职简历中写上：我会XML</option4>
+        <trueAnswer>B</trueAnswer>
+        
+<difficult>中</difficult>
+    
+</singleSelection>
+    
+<singleSelection>
+        
+<question>下列技术中，与XML数据显示和打印无关的技术为</question>
+        <option1>A、HTML</option1>
+        
+<option2>B、CSS</option2>
+        
+<option3>C、XLST</option3>
+        
+<option4>D、XML-Schema</option4>
+        
+<trueAnswer>D</trueAnswer>
+        
+<difficult>难</difficult>
+    
+</singleSelection>
+<singleSelection>
+<question>test3</question>
+<option1>111</option1>
+<option2>222</option2>
+<option3>333</option3>
+<option4>444</option4>
+<trueAnswer>B</trueAnswer>
+<difficult>易</difficult>
+</singleSelection>
+<singleSelection>
+<question>test2</question>
+<option1>123</option1>
+<option2>134</option2>
+<option3>156</option3>
+<option4>178</option4>
+<trueAnswer>A</trueAnswer>
+<difficult>易</difficult>
+</singleSelection>
+<singleSelection>
+<question>test3</question>
+<option1>111</option1>
+<option2>222</option2>
+<option3>333</option3>
+<option4>444</option4>
+<trueAnswer>B</trueAnswer>
+<difficult>中</difficult>
+</singleSelection>
+
+<singleSelection>
+        
+<question>This is a test9</question>
+        
+<option1>A、test7</option1>
+        
+<option2>B、XML比SGML更为简化</option2>
+        
+<option3>C、HTML是SGML的一个子集</option3>
+        
+<option4>D、SGML主要用来定义文献模型的逻辑和物理结构</option4>
+        <trueAnswer>B</trueAnswer>
+        
+<difficult>难</difficult>
+    
+</singleSelection>
+    
+<singleSelection>
+        
+<question>This is a test10</question>
+        
+<option1>A、EXtensible Mobile Language</option1>
+        
+<option2>B、X-ray Micro Label</option2>
+        
+<option3>C、EXtensible Markup Language</option3>
+        
+<option4>D、EXtensible Machine Language</option4>
+        <trueAnswer>C</trueAnswer>
+        
+<difficult>易</difficult>
+    
+</singleSelection>
+    
+<singleSelection>
+        
+<question>下列对XML的描述错误的是</question>
+        
+<option1>A、XML是纯文本，是人机可读的</option1>
+        
+<option2>B、XML用户是定义语言的语言，不能用于描述XML本身</option2>
+        <option3>C、XML可用来存储数据</option3>
+        
+<option4>D、XML可用于定义数据的交换格式</option4>
+        <trueAnswer>B</trueAnswer>
+        
+<difficult>中</difficult>
+    
+</singleSelection>
+    
+<singleSelection>
+        
+<question>应该在什么情况下优先使用XML</question>
+        
+<option1>A、希望制作精美的网页</option1>
+        
+<option2>B、希望采用一些载体进行跨平台传送数据</option2>
+        
+<option3>C、希望编写复杂的循环程序代码</option3>
+        
+<option4>D、希望在求职简历中写上：我会XML</option4>
+        <trueAnswer>B</trueAnswer>
+        
+<difficult>中</difficult>
+    
+</singleSelection>
+    
+<singleSelection>
+        
+<question>下列技术中，与XML数据显示和打印无关的技术为</question>
+        <option1>A、HTML</option1>
+        
+<option2>B、CSS</option2>
+        
+<option3>C、XLST</option3>
+        
+<option4>D、XML-Schema</option4>
+        
+<trueAnswer>D</trueAnswer>
+        
+<difficult>难</difficult>
+    
+</singleSelection>
+<singleSelection>
+<question>test11</question>
+<option1>111</option1>
+<option2>222</option2>
+<option3>333</option3>
+<option4>444</option4>
+<trueAnswer>B</trueAnswer>
+<difficult>易</difficult>
+</singleSelection>
+<singleSelection>
+<question>test12</question>
+<option1>123</option1>
+<option2>134</option2>
+<option3>156</option3>
+<option4>178</option4>
+<trueAnswer>A</trueAnswer>
+<difficult>易</difficult>
+</singleSelection>
+<singleSelection>
+<question>test13</question>
+<option1>111</option1>
+<option2>222</option2>
+<option3>333</option3>
+<option4>444</option4>
+<trueAnswer>B</trueAnswer>
+<difficult>中</difficult>
+</singleSelection>
+
+<singleSelection>
+        
+<question>This is a test14</question>
+        
+<option1>A、test7</option1>
+        
+<option2>B、XML比SGML更为简化</option2>
+        
+<option3>C、HTML是SGML的一个子集</option3>
+        
+<option4>D、SGML主要用来定义文献模型的逻辑和物理结构</option4>
+        <trueAnswer>B</trueAnswer>
+        
+<difficult>难</difficult>
+    
+</singleSelection>
+    
+<singleSelection>
+        
+<question>XML的英文全称是</question>
+        
+<option1>A、EXtensible Mobile Language</option1>
+        
+<option2>B、X-ray Micro Label</option2>
+        
+<option3>C、EXtensible Markup Language</option3>
+        
+<option4>D、EXtensible Machine Language</option4>
+        <trueAnswer>C</trueAnswer>
+        
+<difficult>易</difficult>
+    
+</singleSelection>
+    
+<singleSelection>
+        
+<question>下列对XML的描述错误的是</question>
+        
+<option1>A、XML是纯文本，是人机可读的</option1>
+        
+<option2>B、XML用户是定义语言的语言，不能用于描述XML本身</option2>
+        <option3>C、XML可用来存储数据</option3>
+        
+<option4>D、XML可用于定义数据的交换格式</option4>
+        <trueAnswer>B</trueAnswer>
+        
+<difficult>难</difficult>
+    
+</singleSelection>
+    
+<singleSelection>
+        
+<question>应该在什么情况下优先使用XML</question>
+        
+<option1>A、希望制作精美的网页</option1>
+        
+<option2>B、希望采用一些载体进行跨平台传送数据</option2>
+        
+<option3>C、希望编写复杂的循环程序代码</option3>
+        
+<option4>D、希望在求职简历中写上：我会XML</option4>
+        <trueAnswer>B</trueAnswer>
+        
+<difficult>中</difficult>
+    
+</singleSelection>
+    
+<singleSelection>
+        
+<question>下列技术中，与XML数据显示和打印无关的技术为</question>
+        <option1>A、HTML</option1>
+        
+<option2>B、CSS</option2>
+        
+<option3>C、XLST</option3>
+        
+<option4>D、XML-Schema</option4>
+        
+<trueAnswer>D</trueAnswer>
+        
+<difficult>难</difficult>
+    
+</singleSelection>
+<singleSelection>
+<question>test15</question>
+<option1>111</option1>
+<option2>222</option2>
+<option3>333</option3>
+<option4>444</option4>
+<trueAnswer>C</trueAnswer>
+<difficult>易</difficult>
+</singleSelection>
+
+<singleSelection>
+<question>test17</question>
+<option1>111</option1>
+<option2>222</option2>
+<option3>333</option3>
+<option4>444</option4>
+<trueAnswer>B</trueAnswer>
+<difficult>中</difficult>
+</singleSelection>
+
+<singleSelection>
+        
+<question>This is a test18</question>
+        
+<option1>A、test7</option1>
+        
+<option2>B、XML比SGML更为简化</option2>
+        
+<option3>C、HTML是SGML的一个子集</option3>
+        
+<option4>D、SGML主要用来定义文献模型的逻辑和物理结构</option4>
+        <trueAnswer>C</trueAnswer>
+        
+<difficult>中</difficult>
+    
+</singleSelection>
+    
+<singleSelection>
+        
+<question>XML的英文全称是</question>
+        
+<option1>A、EXtensible Mobile Language</option1>
+        
+<option2>B、X-ray Micro Label</option2>
+        
+<option3>C、EXtensible Markup Language</option3>
+        
+<option4>D、EXtensible Machine Language</option4>
+        <trueAnswer>C</trueAnswer>
+        
+<difficult>易</difficult>
+    
+</singleSelection>
+    
+<singleSelection>
+        
+<question>下列对XML的描述错误的是</question>
+        
+<option1>A、XML是纯文本，是人机可读的</option1>
+        
+<option2>B、XML用户是定义语言的语言，不能用于描述XML本身</option2>
+        <option3>C、XML可用来存储数据</option3>
+        
+<option4>D、XML可用于定义数据的交换格式</option4>
+        <trueAnswer>B</trueAnswer>
+        
+<difficult>难</difficult>
+    
+</singleSelection>
+    
+<singleSelection>
+        
+<question>应该在什么情况下优先使用XML</question>
+        
+<option1>A、希望制作精美的网页</option1>
+        
+<option2>B、希望采用一些载体进行跨平台传送数据</option2>
+        
+<option3>C、希望编写复杂的循环程序代码</option3>
+        
+<option4>D、希望在求职简历中写上：我会XML</option4>
+        <trueAnswer>B</trueAnswer>
+        
+<difficult>难</difficult>
+    
+</singleSelection>
+    
+<singleSelection>
+        
+<question>下列技术中，与XML数据显示和打印无关的技术为</question>
+        <option1>A、HTML</option1>
+        
+<option2>B、CSS</option2>
+        
+<option3>C、XLST</option3>
+        
+<option4>D、XML-Schema</option4>
+        
+<trueAnswer>D</trueAnswer>
+        
+<difficult>难</difficult>
+    
+</singleSelection>
+<singleSelection>
+<question>test19</question>
+<option1>111</option1>
+<option2>222</option2>
+<option3>333</option3>
+<option4>444</option4>
+<trueAnswer>D</trueAnswer>
+<difficult>易</difficult>
+</singleSelection>
+
+<singleSelection>
+<question>test23</question>
+<option1>111</option1>
+<option2>222</option2>
+<option3>333</option3>
+<option4>444</option4>
+<trueAnswer>A</trueAnswer>
+<difficult>中</difficult>
+</singleSelection>
+
+<singleSelection>
+        
+<question>This is a test21</question>
+        
+<option1>A、test7</option1>
+        
+<option2>B、XML比SGML更为简化</option2>
+        
+<option3>C、HTML是SGML的一个子集</option3>
+        
+<option4>D、SGML主要用来定义文献模型的逻辑和物理结构</option4>
+        <trueAnswer>B</trueAnswer>
+        
+<difficult>中</difficult>
+    
+</singleSelection>
+    
+<singleSelection>
+        
+<question>XML的英文全称是</question>
+        
+<option1>A、EXtensible Mobile Language</option1>
+        
+<option2>B、X-ray Micro Label</option2>
+        
+<option3>C、EXtensible Markup Language</option3>
+        
+<option4>D、EXtensible Machine Language</option4>
+        <trueAnswer>C</trueAnswer>
+        
+<difficult>易</difficult>
+    
+</singleSelection>
+    
+<singleSelection>
+        
+<question>下列对XML的描述错误的是</question>
+        
+<option1>A、XML是纯文本，是人机可读的</option1>
+        
+<option2>B、XML用户是定义语言的语言，不能用于描述XML本身</option2>
+        <option3>C、XML可用来存储数据</option3>
+        
+<option4>D、XML可用于定义数据的交换格式</option4>
+        <trueAnswer>B</trueAnswer>
+        
+<difficult>难</difficult>
+    
+</singleSelection>
+    
+<singleSelection>
+        
+<question>应该在什么情况下优先使用XML</question>
+        
+<option1>A、希望制作精美的网页</option1>
+        
+<option2>B、希望采用一些载体进行跨平台传送数据</option2>
+        
+<option3>C、希望编写复杂的循环程序代码</option3>
+        
+<option4>D、希望在求职简历中写上：我会XML</option4>
+        <trueAnswer>B</trueAnswer>
+        
+<difficult>中</difficult>
+    
+</singleSelection>
+    
+<singleSelection>
+        
+<question>下列技术中，与XML数据显示和打印无关的技术为</question>
+        <option1>A、HTML</option1>
+        
+<option2>B、CSS</option2>
+        
+<option3>C、XLST</option3>
+        
+<option4>D、XML-Schema</option4>
+        
+<trueAnswer>D</trueAnswer>
+        
+<difficult>难</difficult>
+    
+</singleSelection>
+
+<singleSelection>
+<question>test24</question>
+<option1>123</option1>
+<option2>134</option2>
+<option3>156</option3>
+<option4>178</option4>
+<trueAnswer>D</trueAnswer>
+<difficult>易</difficult>
+</singleSelection>
+<singleSelection>
+<question>test25</question>
+<option1>111</option1>
+<option2>222</option2>
+<option3>333</option3>
+<option4>444</option4>
+<trueAnswer>B</trueAnswer>
+<difficult>中</difficult>
+</singleSelection>
+<singleSelection>
+<question>test26</question>
+<option1>111</option1>
+<option2>222</option2>
+<option3>333</option3>
+<option4>444</option4>
+<trueAnswer>C</trueAnswer>
+<difficult>难</difficult>
+</singleSelection>
+
+
+<singleSelection><question>testn</question><option1>123</option1><option2>234</option2><option3>345</option3><option4>456</option4><trueAnswer>A</trueAnswer><difficult>易</difficult></singleSelection><singleSelection><question>t4grefw</question><option1>143gqre</option1><option2>brvef</option2><option3>htgbrvf</option3><option4>qrewb</option4><trueAnswer>B</trueAnswer><difficult>中</difficult></singleSelection></singleSelectionBank>

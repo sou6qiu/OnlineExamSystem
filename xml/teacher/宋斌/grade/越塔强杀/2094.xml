@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<paper><singleSelection><question>XML的英文全称是</question><mark>10</mark><option1>A、EXtensible Mobile Language</option1><option2>B、X-ray Micro Label</option2><option3>C、EXtensible Markup Language</option3><option4>D、EXtensible Machine Language</option4><trueAnswer>C</trueAnswer><answer>A</answer></singleSelection><singleSelection><question>XML的英文全称是</question><mark>10</mark><option1>A、EXtensible Mobile Language</option1><option2>B、X-ray Micro Label</option2><option3>C、EXtensible Markup Language</option3><option4>D、EXtensible Machine Language</option4><trueAnswer>C</trueAnswer><answer>A</answer></singleSelection><singleSelection><question>test25</question><mark>10</mark><option1>111</option1><option2>222</option2><option3>333</option3><option4>444</option4><trueAnswer>B</trueAnswer><answer>B</answer></singleSelection><singleSelection><question>应该在什么情况下优先使用XML</question><mark>10</mark><option1>A、希望制作精美的网页</option1><option2>B、希望采用一些载体进行跨平台传送数据</option2><option3>C、希望编写复杂的循环程序代码</option3><option4>D、希望在求职简历中写上：我会XML</option4><trueAnswer>B</trueAnswer><answer>B</answer></singleSelection><singleSelection><question>This is a test9</question><mark>10</mark><option1>A、test7</option1><option2>B、XML比SGML更为简化</option2><option3>C、HTML是SGML的一个子集</option3><option4>D、SGML主要用来定义文献模型的逻辑和物理结构</option4><trueAnswer>B</trueAnswer><answer>D</answer></singleSelection><trueOrFalse><question>除当场作出行政许可决定外,行政机关应当自受理行政许可申请之日起40日内作出行政许可决定。</question><mark>5</mark><trueAnswer>T</trueAnswer><answer>F</answer></trueOrFalse><trueOrFalse><question>国务院直属机构的职权包括制定规章权、行政事项处理权和裁决争议权。</question><mark>5</mark><trueAnswer>T</trueAnswer><answer>T</answer></trueOrFalse><trueOrFalse><question>权力机关一般对行政机关不合法或不适当的决定、命令、规范性文件等抽象行政行为,采用撤销的方式,追究责任,实施监督,并有权对政府组成人员追究行政责任。</question><mark>5</mark><trueAnswer>T</trueAnswer><answer>T</answer></trueOrFalse><trueOrFalse><question>标记性语言是一系列的规则，这些规则强加在文件的内容和结构上,这种说法是xgfcvhkchf</question><mark>5</mark><trueAnswer>F</trueAnswer><answer>F</answer></trueOrFalse><trueOrFalse><question> 在政府系统内部,上级行政机关有权对下级行政机关的行政管理活动进行监督,而下级行政机关对上级行政机关的行政管理活动没有监督权。</question><mark>5</mark><trueAnswer>T</trueAnswer><answer>F</answer></trueOrFalse><fillBlank><question>世界上很多国家都相继组建了自己国家的公用数据网，现有的公用数据网大多采用：</question><mark>5</mark><answer>dcfgvhb</answer></fillBlank><fillBlank><question>假如收到1000000000个码元，经检查有一个码元出错，则误码率为：</question><mark>5</mark><answer>xfdcgfvhgb</answer></fillBlank><fillBlank><question>在OSI的七层参考模型中，工作在第三层以上的网间连接设备：</question><mark>5</mark><answer>cgvhbjn</answer></fillBlank><fillBlank><question>在局域网中，MAC指的是：</question><mark>5</mark><answer>dcfgvhbj</answer></fillBlank><fillBlank><question>以太网媒体访问控制技术CSMA/CD的机制是：</question><mark>5</mark><answer>gfvhgbjnk</answer></fillBlank>
+<shortAnswerQuestion>
+<question>基于TCP、UDP分别有哪些协议：</question>
+<difficult>中</difficult>
+<answer>asdasd</answer>
+<mark>10</mark>
+</shortAnswerQuestion>
+<shortAnswerQuestion>
+<question>常见的密码体系可以分为哪两类？它们的主要差别是什么：</question>
+<answer>awer</answer>
+<difficult>中</difficult>
+<mark>10</mark>
+</shortAnswerQuestion>
+<shortAnswerQuestion>
+<question>路由器分组转发的过程：</question>
+<answer>rgaw</answer>
+<difficult>中</difficult>
+<mark>10</mark>
+</shortAnswerQuestion>
+<shortAnswerQuestion>
+<question>下列对XML的描述错误的是：</question>
+<answer>awegafd</answer>
+<difficult>中</difficult>
+<mark>10</mark>
+</shortAnswerQuestion>
+<shortAnswerQuestion>
+<question>比较虚电路服务与数据报服务的优缺点：</question>
+<answer>awefargfs</answer>
+<difficult>中</difficult>
+<mark>10</mark>
+</shortAnswerQuestion>
+<Time><beginTime>2019-01-02 03:24:02</beginTime><endTime/><deadline>2019-01-02 05:24:02</deadline></Time></paper>
